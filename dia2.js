@@ -14,7 +14,7 @@ const nome = prompt('Qual o seu nome?');
 const idade = prompt('Quantos anos você tem?');
 const linguagem = prompt('Qual linguagem de programação você está estudando?');
 
-console.log(`Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!`);
+alert(`Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!`);
 
 let resposta = prompt(`Você gosta de estudar ${linguagem}? Responda com o número 1 para SIM ou 2 para NÃO.`);
 
@@ -24,9 +24,9 @@ while (!(resposta == '1' || resposta == '2')) {
 
 switch (resposta) {
     case '1':
-        console.log('Muito bom! Continue estudando e você terá muito sucesso.');
+        alert('Muito bom! Continue estudando e você terá muito sucesso.');
         break;
     case '2':
-        console.log('Ahh que pena... Já tentou aprender outras linguagens?');
+        alert('Ahh que pena... Já tentou aprender outras linguagens?');
         break;
 }
